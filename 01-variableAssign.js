@@ -24,4 +24,3 @@ console.log("gender:",gender)
 
 var isMarried = "false";
 console.log("Is married ?", isMarried)
-
