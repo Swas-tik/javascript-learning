@@ -41,7 +41,7 @@ class College {
     this.courses= courses;
   }
   details(){
-    console.log(`======== Complete details of ${this.College}=========`)
+    console.log(`======== Complete details of ${this.university}=========`)
     console.log(`University: ${this.university}, Address: ${this.address}, Founded: ${this.founded}, Courses: ${this.courses}`)
   }
 }
