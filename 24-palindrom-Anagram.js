@@ -1,13 +1,13 @@
-//Palindrom
+//Palindrome
 
 function palindrom(word){
   console.log(`Given word is '${word}'`)
   let inputWord = word.toLowerCase()
   const reverseWord = word.split('').reverse().join('')
   const result = reverseWord.toLowerCase()
-  return result == inputWord ? 'is palindrom' : 'Not a palindrom'
+  return result == inputWord ? 'is palindrome' : 'Not a palindrome'
 }
-console.log(`--------------Palindrom-----------------`)
+console.log(`--------------Palindrome-----------------`)
 console.log(palindrom('Madam'))
 console.log(`-------------------------------`)
 console.log(palindrom('Dad'))
